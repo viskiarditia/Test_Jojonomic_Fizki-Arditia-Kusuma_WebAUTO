@@ -8,24 +8,30 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.util.concurrent.TimeUnit;
+
 public class Hooks {
     public static WebDriver webDriver;
 
     @Before
     public void openBrowser(){
         ChromeOptions a = new ChromeOptions();
+        a.addArguments("--no-sandbox");
+        a.addArguments("--disable-dev-shm-usage");
+        a.addArguments("--headless");
         a.addArguments("--remote-allow-origins=*");
-        WebDriverManager.chromedriver().setup();
+//        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().forceDownload().setup();
 
-        webDriver = new ChromeDriver();
-        String appUrl = "https://www..com/";
+        webDriver = new ChromeDriver(a);
+        String appUrl = "https://www.service.nsw.gov.au/";
         webDriver.get(appUrl);
         webDriver.manage().window().maximize();
     }
 
     @After
     public void closeBrowser(){
+        // Menutup jendela browser aktif
         webDriver.quit();
     }
-
 }
