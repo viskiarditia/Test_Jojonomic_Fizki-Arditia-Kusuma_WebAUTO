@@ -29,8 +29,8 @@ jobs:
       run: mvn clean test --file pom.xml
     - name: Copy Cucumber JSON Report
       run: |
-          cd target
-          cp cucumber.json ../cucumber/
+          cd target/cucumber/
+          cp cucumber.json
       
     - name: Commit Files Report # transfer the new html files back into the repository
       run: |
