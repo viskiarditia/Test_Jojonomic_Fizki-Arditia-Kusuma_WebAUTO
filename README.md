@@ -41,6 +41,6 @@ To get started with this project, follow these steps:
 
 ##How To Run
 1. Open Project Repository on Intellij IDE and Run this on the IDE terminal
-  $ mvn clean test and click search.html on target folder for report. 
+   `mvn clean test and click search.html` on target folder for report. 
 
 Happy testing!
