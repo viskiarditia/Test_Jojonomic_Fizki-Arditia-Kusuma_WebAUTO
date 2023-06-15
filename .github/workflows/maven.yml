@@ -27,3 +27,19 @@ jobs:
                           ./scripts/InstallChrome.sh 
     - name: Build with Maven
       run: mvn clean test --file pom.xml
+    - name: Copy Cucumber JSON Report
+      run: |
+          cd target
+          cp cucumber.json ../report/
+      
+    - name: Commit Files Report # transfer the new html files back into the repository
+      run: |
+          git config --local user.name "viskiarditia"
+          git add ./report
+          git commit -m "Updating the repository report"
+    
+    - name: Push changes # push the output folder to your repo
+      uses: ad-m/github-push-action@master
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
