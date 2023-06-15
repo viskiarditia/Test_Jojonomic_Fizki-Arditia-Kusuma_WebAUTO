@@ -27,10 +27,10 @@ jobs:
                           ./scripts/InstallChrome.sh 
     - name: Build with Maven
       run: mvn clean test --file pom.xml
-    - name: Copy Cucumber JSON Report
+    - name: Copy cucumber.json
       run: |
-          cd target/cucumber/
-          cp cucumber.json
+          cd target
+          cp cucumber.json ../cucumber/
       
     - name: Commit Files Report # transfer the new html files back into the repository
       run: |
