@@ -34,7 +34,7 @@ jobs:
     - name: Commit Files Report # transfer the new html files back into the repository
       run: |
           git config --local user.name "viskiarditia"
-          git add ./report
+          git add ./Report
           git commit -m "Updating the repository report"
     
     - name: Push changes # push the output folder to your repo
