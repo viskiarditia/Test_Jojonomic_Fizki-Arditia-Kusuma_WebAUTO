@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="0" name="step_definitions.RunCukesTest" time="0.026" errors="4" skipped="2">
+<testsuite tests="10" failures="0" name="step_definitions.RunCukesTest" time="0.426" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
@@ -64,154 +64,14 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="| Sydney 2000 |" name="Given User Open to Website service nsw" time="0.007"/>
+  <testcase classname="| Sydney 2000 |" name="Given User Open to Website service nsw" time="0.004"/>
   <testcase classname="| Sydney 2000 |" name="When User Click Search Field and input Apply for a number plate" time="0"/>
-  <testcase classname="| Sydney 2000 |" name="Then User Click menu Find Locations" time="0.005">
-    <error message="element not interactable
-  (Session info: headless chrome=114.0.5735.133)
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;fizkis-MacBook-Air.local&apos;, ip: &apos;2001:448a:2022:250f:6c9a:345b:a1a4:6448%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b8dd089fefefd5f927bfcb078004dd5c, clickElement {id=D36CED2FA7C123484628A8DE94A74BEE_element_71}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/nl/kl9228955pj...}, goog:chromeOptions: {debuggerAddress: localhost:50883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50883/devtoo..., se:cdpVersion: 114.0.5735.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (b8dd089fefefd5f927bfcb078004dd5c)] -&gt; xpath: //ul[@class=&apos;MainNav__list-peZtddYtxn&apos;]/li[.=&apos;Find locations&apos;]]
-Session ID: b8dd089fefefd5f927bfcb078004dd5c" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: headless chrome=114.0.5735.133)
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;fizkis-MacBook-Air.local&apos;, ip: &apos;2001:448a:2022:250f:6c9a:345b:a1a4:6448%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b8dd089fefefd5f927bfcb078004dd5c, clickElement {id=D36CED2FA7C123484628A8DE94A74BEE_element_71}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/nl/kl9228955pj...}, goog:chromeOptions: {debuggerAddress: localhost:50883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50883/devtoo..., se:cdpVersion: 114.0.5735.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (b8dd089fefefd5f927bfcb078004dd5c)] -&gt; xpath: //ul[@class=&apos;MainNav__list-peZtddYtxn&apos;]/li[.=&apos;Find locations&apos;]]
-Session ID: b8dd089fefefd5f927bfcb078004dd5c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at step_definitions.searchStepdefs.userClickMenuFindLocations(searchStepdefs.java:32)
-	at ✽.Then User Click menu Find Locations(features/jojonomic_Search.feature:8)
-</error>
-  </testcase>
-  <testcase classname="| Sydney 2000 |" name="| Sydney 2000 |" time="0.005">
-    <error message="element not interactable
-  (Session info: headless chrome=114.0.5735.133)
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;fizkis-MacBook-Air.local&apos;, ip: &apos;2001:448a:2022:250f:6c9a:345b:a1a4:6448%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b8dd089fefefd5f927bfcb078004dd5c, clickElement {id=D36CED2FA7C123484628A8DE94A74BEE_element_71}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/nl/kl9228955pj...}, goog:chromeOptions: {debuggerAddress: localhost:50883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50883/devtoo..., se:cdpVersion: 114.0.5735.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (b8dd089fefefd5f927bfcb078004dd5c)] -&gt; xpath: //ul[@class=&apos;MainNav__list-peZtddYtxn&apos;]/li[.=&apos;Find locations&apos;]]
-Session ID: b8dd089fefefd5f927bfcb078004dd5c" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: headless chrome=114.0.5735.133)
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;fizkis-MacBook-Air.local&apos;, ip: &apos;2001:448a:2022:250f:6c9a:345b:a1a4:6448%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b8dd089fefefd5f927bfcb078004dd5c, clickElement {id=D36CED2FA7C123484628A8DE94A74BEE_element_71}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/nl/kl9228955pj...}, goog:chromeOptions: {debuggerAddress: localhost:50883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50883/devtoo..., se:cdpVersion: 114.0.5735.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (b8dd089fefefd5f927bfcb078004dd5c)] -&gt; xpath: //ul[@class=&apos;MainNav__list-peZtddYtxn&apos;]/li[.=&apos;Find locations&apos;]]
-Session ID: b8dd089fefefd5f927bfcb078004dd5c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at step_definitions.searchStepdefs.userClickMenuFindLocations(searchStepdefs.java:32)
-	at ✽.Then User Click menu Find Locations(features/jojonomic_Search.feature:8)
-</error>
-  </testcase>
-  <testcase classname="| Sydney 2000 |" name="Then User click and Search &quot;Sydney 2000&quot; on Suburb Locations" time="0.006">
-    <skipped/>
-  </testcase>
+  <testcase classname="| Sydney 2000 |" name="Then User Click menu Find Locations" time="0"/>
+  <testcase classname="| Sydney 2000 |" name="Then User click and Search &quot;Sydney 2000&quot; on Suburb Locations" time="0"/>
+  <testcase classname="| Sydney 2000 |" name="| Sydney 2000 |" time="0.261"/>
   <testcase classname="| Sydney Domestic Airport 2020 |" name="Given User Open to Website service nsw" time="0"/>
   <testcase classname="| Sydney Domestic Airport 2020 |" name="When User Click Search Field and input Apply for a number plate" time="0"/>
-  <testcase classname="| Sydney Domestic Airport 2020 |" name="Then User Click menu Find Locations" time="0.001">
-    <error message="element not interactable
-  (Session info: headless chrome=114.0.5735.133)
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;fizkis-MacBook-Air.local&apos;, ip: &apos;2001:448a:2022:250f:6c9a:345b:a1a4:6448%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b6a6de47d068552682a09f68c16adf73, clickElement {id=CDA71675B01295E58B7EBE271AE6E462_element_74}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/nl/kl9228955pj...}, goog:chromeOptions: {debuggerAddress: localhost:51196}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51196/devtoo..., se:cdpVersion: 114.0.5735.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (b6a6de47d068552682a09f68c16adf73)] -&gt; xpath: //ul[@class=&apos;MainNav__list-peZtddYtxn&apos;]/li[.=&apos;Find locations&apos;]]
-Session ID: b6a6de47d068552682a09f68c16adf73" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: headless chrome=114.0.5735.133)
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;fizkis-MacBook-Air.local&apos;, ip: &apos;2001:448a:2022:250f:6c9a:345b:a1a4:6448%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b6a6de47d068552682a09f68c16adf73, clickElement {id=CDA71675B01295E58B7EBE271AE6E462_element_74}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/nl/kl9228955pj...}, goog:chromeOptions: {debuggerAddress: localhost:51196}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51196/devtoo..., se:cdpVersion: 114.0.5735.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (b6a6de47d068552682a09f68c16adf73)] -&gt; xpath: //ul[@class=&apos;MainNav__list-peZtddYtxn&apos;]/li[.=&apos;Find locations&apos;]]
-Session ID: b6a6de47d068552682a09f68c16adf73
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at step_definitions.searchStepdefs.userClickMenuFindLocations(searchStepdefs.java:32)
-	at ✽.Then User Click menu Find Locations(features/jojonomic_Search.feature:8)
-</error>
-  </testcase>
-  <testcase classname="| Sydney Domestic Airport 2020 |" name="| Sydney Domestic Airport 2020 |" time="0.001">
-    <error message="element not interactable
-  (Session info: headless chrome=114.0.5735.133)
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;fizkis-MacBook-Air.local&apos;, ip: &apos;2001:448a:2022:250f:6c9a:345b:a1a4:6448%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b6a6de47d068552682a09f68c16adf73, clickElement {id=CDA71675B01295E58B7EBE271AE6E462_element_74}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/nl/kl9228955pj...}, goog:chromeOptions: {debuggerAddress: localhost:51196}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51196/devtoo..., se:cdpVersion: 114.0.5735.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (b6a6de47d068552682a09f68c16adf73)] -&gt; xpath: //ul[@class=&apos;MainNav__list-peZtddYtxn&apos;]/li[.=&apos;Find locations&apos;]]
-Session ID: b6a6de47d068552682a09f68c16adf73" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: headless chrome=114.0.5735.133)
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;fizkis-MacBook-Air.local&apos;, ip: &apos;2001:448a:2022:250f:6c9a:345b:a1a4:6448%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b6a6de47d068552682a09f68c16adf73, clickElement {id=CDA71675B01295E58B7EBE271AE6E462_element_74}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/nl/kl9228955pj...}, goog:chromeOptions: {debuggerAddress: localhost:51196}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51196/devtoo..., se:cdpVersion: 114.0.5735.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (b6a6de47d068552682a09f68c16adf73)] -&gt; xpath: //ul[@class=&apos;MainNav__list-peZtddYtxn&apos;]/li[.=&apos;Find locations&apos;]]
-Session ID: b6a6de47d068552682a09f68c16adf73
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at step_definitions.searchStepdefs.userClickMenuFindLocations(searchStepdefs.java:32)
-	at ✽.Then User Click menu Find Locations(features/jojonomic_Search.feature:8)
-</error>
-  </testcase>
-  <testcase classname="| Sydney Domestic Airport 2020 |" name="Then User click and Search &quot;Sydney Domestic Airport 2020&quot; on Suburb Locations" time="0.001">
-    <skipped/>
-  </testcase>
+  <testcase classname="| Sydney Domestic Airport 2020 |" name="Then User Click menu Find Locations" time="0"/>
+  <testcase classname="| Sydney Domestic Airport 2020 |" name="Then User click and Search &quot;Sydney Domestic Airport 2020&quot; on Suburb Locations" time="0"/>
+  <testcase classname="| Sydney Domestic Airport 2020 |" name="| Sydney Domestic Airport 2020 |" time="0.161"/>
 </testsuite>
