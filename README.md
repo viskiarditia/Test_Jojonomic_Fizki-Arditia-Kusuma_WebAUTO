@@ -15,9 +15,9 @@ At Service NSW, a positive customer experience is our highest priority. We draw 
 
 The main objective of this project is to thoroughly test the search functionality and finding locations feature of Service NSW. The project will cover the following areas:
 
-1. Search Functionality: Testing the search functionality to ensure accurate and relevant search results are returned based on user queries. This includes testing different search scenarios, verifying search filters, and handling various search inputs.
+1. Search Functionality: Testing the search functionality to ensure accurate and relevant search results are returned based on user queries. 
 
-2. Finding Locations: Testing the feature that allows users to find physical locations where they can access government services. This involves validating location search results, verifying address information, and checking the accuracy of location details provided.
+2. Finding Locations: Testing the feature that allows users to find physical locations where they can access government services. 
 
 ## Tools and Technologies
 
